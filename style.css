@@ -1,16 +1,4 @@
-@font-face {
-    font-family: 'TT Lakes';
-    src: url(1a79d09a2cc69d5cf0ae.ttf) format('truetype');
-    font-weight: 200;
-    font-style: normal;
-}
-* {
-    font-family: 'TT Lakes', serif;
-    margin: 0;
-    padding: 0;
-    list-style-type: none;
-    text-decoration: none;
-}
+
 body{
     font-size: 16px;
     line-height: 24px;
@@ -338,15 +326,6 @@ button{
 
 
 
-* {
-    margin: 0;
-    padding: 0;
-    font-family: 'TT Lakes', serif;
-    list-style-type: none;
-    text-decoration: none;
-    color:#1B1C21;
-}
-
 .wrapper{
     width: 320px;
     box-shadow: -20px 0 50px 0;
@@ -419,7 +398,7 @@ button{
     padding: 20px;
 }
 
-.header-nav__btn{
+.aside-nav__btn{
     margin-left: -70px
 }
 
@@ -482,7 +461,7 @@ input[type=radio]{
     padding-top: 15px;
 }
 
-@font-face{font-family:'Comic';src:url(32d288cb840f32edad4a.woff) format("woff");font-weight:normal;font-style:italic}
+@font-face{font-family:'Comic';src:url(32d288cb840f32edad4a.woff) format("woff");font-weight:normal;font-style:normal}*{margin:0;padding:0;font-family:'TT Lakes', serif;list-style-type:none;text-decoration:none;color:#1B1C21}
 
 
 /*# sourceMappingURL=style.css.map*/
