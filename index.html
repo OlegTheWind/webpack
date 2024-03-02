@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
     <title>CPS</title>
 
 <script defer="defer" src="./js/bundle.js"></script><link href="style.css" rel="stylesheet"></head>
@@ -24,7 +25,67 @@
 </header>
 
 
+
+<main class="main">
+
+  <aside class="wrapper">
+    <header class="header">
+      <div class="aside__menu">
+        <button class="round-button round__button_burger"></button>
+        <a class="upper__menu-logo aside-nav__btn" href=""><img src="../img/Group.svg" alt="Логотип компании CPS"></a>
+        <button class="round-button round__button_search"></button>
+      </div>
+    </header>
+
     <main class="main">
+      <nav class="aside__main-menu">
+        <ul class="main__menu-list">
+          <li class="menu__list-text list__text_repair"><a class="text__highlight_focus text__highlight_style" href="#">Ремонт техники</a></li>
+          <li class="menu__list-text list__text_services"><a class="text__highlight_focus text__highlight_style" href="#">Услуги и сервисы</a></li>
+          <li class="menu__list-text list__text_corporate"><a class="text__highlight_focus text__highlight_style" href="#">Корпоративным клиенатам</a></li>
+          <li class="menu__list-text list__text_seller"><a class="text__highlight_focus text__highlight_style" href="#">Продавцам техники</a></li>
+          <li class="menu__list-text list__text_partners"><a class="text__highlight_focus text__highlight_style" href="#">Партнерам</a></li>
+          <li class="menu__list-text list__text_manufacturers"><a class="text__highlight_focus text__highlight_style" href="#">Производителям</a></li>
+          <li class="menu__list-text list__text_service"><a class="text__highlight_focus text__highlight_style" href="#">Наши сервисные центры</a></li>
+          <li class="menu__list-text list__text_contacts"><a class="text__highlight_focus text__highlight_style" href="#">Контакты</a></li>
+        </ul>
+      </nav>
+    </main>
+    <footer class="block_info_button">
+      <div class="aside__button-bottom">
+        <button class="round-button-bottom round__button_call"></button>
+        <button class="round-button-bottom round__button_chat"></button>
+        <button class="round-button-bottom round__button_profile"></button>
+      </div>
+
+      <div class="block_info_email_phone">
+        <a class="email">mail@cps.com</a>
+        <a class="phone"><b>8 800 890 8900</b></a>
+      </div>
+
+      <form class="radio__lang-list" action="">
+        <input type="radio" id="ru" name="lang" class="radio_input" checked="checked">
+        <label for="ru" class="label_input">RU</label>
+
+        <input type="radio" id="en" name="lang" class="radio_input">
+        <label for="en" class="label_input">EN</label>
+
+        <input type="radio" id="ch" name="lang" class="radio_input">
+        <label for="ch" class="label_input">CH</label>
+      </form>
+    </footer>
+  </aside>
+    <div class="main__content">
+      <div class="main__title">
+          <div class="highlight"></div>
+          <h1 class="main__text">Услуги и сервисы</h1>
+          <div class="upper-menu__icon-full">
+              <a href="#"><button class="round-button button__active-c upper-menu__icon_repair-button-full"></button></a>
+              <a href="#"><button class="round-button button__active-c upper-menu__icon_check-status-button-full"></button></a>
+          </div>
+      </div>
+
+
       <nav class="main__menu">
           <ul class="slide__menu">
               <li><a class="slide__button" href="#" autofocus>Ремонтируемые бренды</a></li>
@@ -47,11 +108,36 @@
 
           <div class="background__img"><img src="../img/_MG_3223.png" alt="Лого и Время работы "></div>
       </div>
-      <div class="block2">
+    </div>
 
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto ducimus earum eos ipsam quidem, quod? Ad assumenda cum facere facilis illo in nobis optio, pariatur placeat recusandae? Cumque, dicta similique?</p>
+    <div class="block__brand-repair">
+      <span class="text__brand-repair">Ремонт техники различных брендов</span>
+      <div class="swiper">
+        <div class="swiper-container">
+          <div class="swiper-wrapper menu__brand-repair">
+            <div class="logo__repair swiper-slide"><a class="button__box"><img src="../img/lenovo.svg" alt="lenovo"><div class="button__next"></div></a></div>
+            <div class="logo__repair swiper-slide"><a class="button__box"><img src="../img/samsung.svg" alt="samsung"><div class="button__next"></div></a></div>
+            <div class="logo__repair swiper-slide"><a class="button__box"><img src="../img/apple.svg" alt="apple"><div class="button__next"></div></a></div>
+            <div class="logo__repair swiper-slide"><a class="button__box"><img src="../img/viewsonik.svg" alt="viewsonik"><div class="button__next"></div></a></div>
+            <div class="logo__repair swiper-slide"><a class="button__box"><img src="../img/bosch.svg" alt="bosch"><div class="button__next"></div></a></div>
+            <div class="logo__repair swiper-slide"><a class="button__box"><img src="../img/hp.svg" alt="hp"><div class="button__next"></div></a></div>
+            <div class="logo__repair swiper-slide"><a class="button__box"><img src="../img/acer.svg" alt="acer"><div class="button__next"></div></a></div>
+            <div class="logo__repair swiper-slide"><a class="button__box"><img src="../img/sony.svg" alt="sony"><div class="button__next"></div></a></div>
+            <div class="logo__repair swiper-slide"><a class="button__box"><img src="../img/lenovo.svg" alt="lenovo"><div class="button__next"></div></a></div>
+            <div class="logo__repair swiper-slide"><a class="button__box"><img src="../img/samsung.svg" alt="samsung"><div class="button__next"></div></a></div>
+            <div class="logo__repair swiper-slide extra"><a class="button__box"><img src="../img/apple.svg" alt="apple"><div class="button__next"></div></a></div>
 
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
       </div>
-    
+
+      <button class="repair__button-flex"><span class="repair__text-flex">Показать</span></button>
+
+      <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    </div>
 </main>
+
+
 </body></html>
