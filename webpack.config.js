@@ -3,7 +3,10 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const CopyWebpackPlugin = require('copy-webpack-plugin');
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 1a26487a513583c255d5cad7ee8417e16e98e567
 module.exports = {
   // Входной файл
   entry: [
@@ -63,6 +66,7 @@ module.exports = {
           },
         ]
       },
+<<<<<<< HEAD
       {
         // test: /\.handlebars$/,
         // loader: "handlebars-loader",
@@ -71,19 +75,29 @@ module.exports = {
         //   partialDirs: [path.join(__dirname, 'html')]
         // },
       },
+=======
+>>>>>>> 1a26487a513583c255d5cad7ee8417e16e98e567
     ],
   },
   plugins: [
     // Подключаем файл html, стили и скрипты встроятся автоматически
     new HtmlWebpackPlugin({
       title: 'Webpack 4 Starter',
+<<<<<<< HEAD
       template: './src/html/main.html',
       chunks: ['main'],
+=======
+      template: './src/index.html',
+>>>>>>> 1a26487a513583c255d5cad7ee8417e16e98e567
       inject: true,
       minify: {
         removeComments: true,
         collapseWhitespace: false,
+<<<<<<< HEAD
       },
+=======
+      }
+>>>>>>> 1a26487a513583c255d5cad7ee8417e16e98e567
     }),
 
     // Кладем стили в отдельный файлик
@@ -92,6 +106,7 @@ module.exports = {
     }),
 
     // Копируем картинки
+<<<<<<< HEAD
     new CopyWebpackPlugin({
       patterns: [
         {
@@ -102,5 +117,13 @@ module.exports = {
       ]
 
     })
+=======
+    new CopyWebpackPlugin([
+      {
+        from: './src/img',
+        to: 'img',
+      },
+    ])
+>>>>>>> 1a26487a513583c255d5cad7ee8417e16e98e567
   ],
 };

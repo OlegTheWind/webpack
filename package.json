@@ -27,6 +27,7 @@
     "not dead"
   ],
   "devDependencies": {
+<<<<<<< HEAD
     "@babel/core": "^7.23.9",
     "@babel/preset-env": "^7.23.9",
     "autoprefixer": "^10.4.17",
@@ -44,6 +45,24 @@
     "webpack": "^5.90.3",
     "webpack-cli": "^5.1.4",
     "webpack-dev-server": "^5.0.2"
+=======
+    "@babel/core": "7.5.5",
+    "@babel/preset-env": "7.5.5",
+    "autoprefixer": "9.6.1",
+    "babel-loader": "8.0.6",
+    "copy-webpack-plugin": "5.1.0",
+    "css-loader": "3.2.0",
+    "file-loader": "4.2.0",
+    "gh-pages": "2.1.1",
+    "html-webpack-plugin": "3.2.0",
+    "mini-css-extract-plugin": "0.8.0",
+    "node-sass": "^4.14.1",
+    "postcss-loader": "3.0.0",
+    "sass-loader": "7.2.0",
+    "webpack": "4.41.2",
+    "webpack-cli": "3.3.7",
+    "webpack-dev-server": "^3.11.0"
+>>>>>>> 1a26487a513583c255d5cad7ee8417e16e98e567
   },
   "engineStrict": true,
   "engines": {
@@ -54,8 +73,11 @@
     "plugins": {
       "autoprefixer": {}
     }
+<<<<<<< HEAD
   },
   "dependencies": {
     "handlebars": "^4.7.8"
+=======
+>>>>>>> 1a26487a513583c255d5cad7ee8417e16e98e567
   }
 }
